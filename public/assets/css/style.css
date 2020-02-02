@@ -1,7 +1,7 @@
 .background {
     background: url("../images/weather.png") no-repeat;
     height: 200px;
-    transition: transform .2s;
+    background-size: cover;
 }
 
 .background:hover {
