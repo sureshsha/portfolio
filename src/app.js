@@ -12,6 +12,6 @@ app.get('/', function (req, res) {
   res.render('index')
 })
  
-app.listen(process.env.PORT, ()=> {
+app.listen(3000, ()=> {
     console.log("server running")
 });
